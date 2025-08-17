@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Bebas+Neue&display=swap');
+
+:root {
+    --vermelho: #e50914;
+    --preto: #0d0d0d;
+    --cinza: #2e2e2e;
+    --branco: #f5f5f5;
+    --verde-neon: #39ff14;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+header {
+    background-color: var(--cinza);
+}
+
+.nav-link {
+    color: var(--branco);
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url('img/fundogta.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 606px;
+    padding: 40px;
+    color: #fff;
+}
+
+.botao-inicio {
+    background-color: var(--vermelho);
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.display-4 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #000;
+    color: var(--verde-neon);
+}
+
+#gta {
+    background: url('img/pattern-graffiti.png') top right no-repeat;
+    background-size: contain;
+    padding: 5rem 0;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--vermelho);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#galeria {
+    background-color: var(--cinza);
+}
+
+.fundo-galeria {
+    background: url('img/pattern-graffiti.png') bottom left no-repeat;
+    background-size: 150px;
+}
+
+#contato {
+    background-image: url('img/fundo-los-santos.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: rgba(20, 20, 20, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+}
+.formulario button {
+    background-color: var(--verde-neon);
+    border: none;
+    color: #000;
+    font-weight: bold;
+}
+.form-control {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
